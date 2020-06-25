@@ -596,6 +596,7 @@
 }
 
 .contact--container .map h5 {
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   margin-top: 1em;
   color: var(--background-color);
