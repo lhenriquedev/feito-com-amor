@@ -58,7 +58,7 @@
     font-size: 14px;
   }
   .products--container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .section--about-us .about-us--container {
@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 690px) {
+@media screen and (max-width: 690px) {
   .header--container {
     display: none;
   }
@@ -262,7 +262,7 @@
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .image-gallery {
     grid-template-areas:
       'img-1 img-1 img-1'
@@ -283,6 +283,11 @@
   .img-4 {
     min-height: 200px;
   }
+
+  .section--testimonials .title {
+    font-size: 18px;
+  }
+
   .testimonial--container {
     grid-template-columns: 1fr;
   }
