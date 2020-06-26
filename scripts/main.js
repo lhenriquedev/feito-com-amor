@@ -1,12 +1,16 @@
 const overlay = document.querySelector('#overlay');
-
-// MENU RESPONSIVO com SCROLL SUAVE
-let show = true; // mostrando menu
-
 const menuSection = document.querySelector('.menu-section');
 const menuToggle = menuSection.querySelector('.menu-toggle');
 
 const menuLinks = document.querySelectorAll('.menu-section a[href^="#"]');
+
+let show = true; // mostrando menu
+
+window.addEventListener('load', () => {
+  overlay.style.display = 'none';
+});
+
+// MENU RESPONSIVO com SCROLL SUAVE
 
 const scrollToOnClick = () => {
   const element = event.target;
@@ -26,9 +30,3 @@ menuToggle.addEventListener('click', () => {
 menuLinks.forEach((item) => {
   item.addEventListener('click', scrollToOnClick);
 });
-
-window.addEventListener('load', () => {
-  overlay.style.display = 'none';
-});
-
-// API - AIzaSyAPGrxuDdXJXB1M09Em_S1ps2QiNeG0sy8
