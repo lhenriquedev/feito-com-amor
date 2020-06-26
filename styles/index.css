@@ -60,7 +60,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero.jpg');
+    url('/assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero.jpg');
+    url('/assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero.jpg');
+    url('/assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -293,35 +293,35 @@
 .img-1 {
   grid-area: img-1;
   min-height: 444px;
-  background-image: url('/assets/imgs/gallery/gallery-1.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-1-min.jpg');
 }
 .img-2 {
   grid-area: img-2;
-  background-image: url('/assets/imgs/gallery/gallery-2.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-2-min.jpg');
 }
 
 .img-3 {
   grid-area: img-3;
-  background-image: url('/assets/imgs/gallery/gallery-3.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-3-min.jpg');
 }
 .img-4 {
   grid-area: img-4;
   min-height: 444px;
-  background-image: url('/assets/imgs/gallery/gallery-4.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-4-min.jpg');
 }
 
 .img-5 {
   grid-area: img-5;
-  background-image: url('/assets/imgs/gallery/gallery-5.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-5-min.jpg');
 }
 
 .img-6 {
   grid-area: img-6;
-  background-image: url('/assets/imgs/gallery/gallery-6.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-6-min.jpg');
 }
 .img-7 {
   grid-area: img-7;
-  background-image: url('/assets/imgs/gallery/gallery-7.jpg');
+  background-image: url('/assets/imgs/gallery/gallery-7-min.jpg');
 }
 
 /*************** Section Testimonials ****************/
@@ -476,7 +476,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero.jpg');
+    url('/assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -527,12 +527,7 @@
   margin-bottom: 1.3em;
 }
 
-.contact--container form .field-group {
-  display: flex;
-}
-
-.contact--container form input,
-.contact--container form select {
+.contact--container form input {
   background-color: #f0f0f5;
   border: 0;
 
@@ -667,6 +662,7 @@
 }
 .copy p {
   color: var(--background-color);
+  line-height: 26px;
   margin-bottom: 10px;
 }
 
