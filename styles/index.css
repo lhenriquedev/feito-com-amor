@@ -235,7 +235,7 @@
 }
 .image-gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 0.3rem;
   grid-template-areas:
@@ -544,29 +544,9 @@
   outline: none;
 }
 
-.contact--container form select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.contact--container form textarea {
-  resize: none;
-  min-height: 200px;
-
-  outline: 0;
-  border: none;
-  border-radius: 8px;
-  padding: 1em 1.5em;
-}
-
 .contact--container form label {
   font-size: 14px;
   margin-bottom: 8px;
-}
-
-.contact--container form .field-group .field + .field {
-  margin-left: 1em;
 }
 
 .contact--container form .btn {
@@ -675,4 +655,23 @@
 
 .footer--inner-social-media .fb-page {
   margin-top: 1em;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  background-color: var(--secondary-color);
+}
+.copy p {
+  color: var(--background-color);
+  margin-bottom: 10px;
+}
+
+.copy span {
+  color: var(--heading-primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
 }
