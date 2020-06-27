@@ -60,7 +60,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero-min.jpg');
+    url('../assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero-min.jpg');
+    url('../assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero-min.jpg');
+    url('../assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -293,35 +293,35 @@
 .img-1 {
   grid-area: img-1;
   min-height: 444px;
-  background-image: url('/assets/imgs/gallery/gallery-1-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-1-min.jpg');
 }
 .img-2 {
   grid-area: img-2;
-  background-image: url('/assets/imgs/gallery/gallery-2-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-2-min.jpg');
 }
 
 .img-3 {
   grid-area: img-3;
-  background-image: url('/assets/imgs/gallery/gallery-3-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-3-min.jpg');
 }
 .img-4 {
   grid-area: img-4;
   min-height: 444px;
-  background-image: url('/assets/imgs/gallery/gallery-4-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-4-min.jpg');
 }
 
 .img-5 {
   grid-area: img-5;
-  background-image: url('/assets/imgs/gallery/gallery-5-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-5-min.jpg');
 }
 
 .img-6 {
   grid-area: img-6;
-  background-image: url('/assets/imgs/gallery/gallery-6-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-6-min.jpg');
 }
 .img-7 {
   grid-area: img-7;
-  background-image: url('/assets/imgs/gallery/gallery-7-min.jpg');
+  background-image: url('../assets/imgs/gallery/gallery-7-min.jpg');
 }
 
 /*************** Section Testimonials ****************/
@@ -476,7 +476,7 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url('/assets/imgs/hero-min.jpg');
+    url('../assets/imgs/hero-min.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -604,7 +604,7 @@
 
 .footer--inner-contact aside h4 .telephone {
   margin-right: 16px;
-  background-image: url('/assets/svgs/telefone.svg');
+  background-image: url('../assets/svgs/telefone.svg');
 
   display: flex;
 
@@ -614,7 +614,7 @@
 
 .footer--inner-contact aside h4 .whatsapp {
   margin-right: 16px;
-  background-image: url('/assets/svgs/whatsapp.svg');
+  background-image: url('../assets/svgs/whatsapp.svg');
 
   display: flex;
 
@@ -648,7 +648,7 @@
   line-height: 1.625em;
 }
 
-.footer--inner-social-media .fb-page {
+.footer--inner-social-media iframe {
   margin-top: 1em;
 }
 
